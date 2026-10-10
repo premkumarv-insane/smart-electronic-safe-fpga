@@ -1,0 +1,218 @@
+$comment
+	File created using the following command:
+		vcd file failsafe.msim.vcd -direction
+$end
+$date
+	Sat Oct 10 19:58:23 2026
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module failsafe_vlg_vec_tst $end
+$var reg 1 ! SW0 $end
+$var reg 1 " SW1 $end
+$var reg 1 # SW2 $end
+$var reg 1 $ SW3 $end
+$var reg 1 % SW4 $end
+$var reg 1 & SW5 $end
+$var wire 1 ' LEDG0 $end
+$var wire 1 ( LEDG1 $end
+$var wire 1 ) LEDG2 $end
+$var wire 1 * LEDG3 $end
+$var wire 1 + sampler $end
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 SW4~combout $end
+$var wire 1 3 SW2~combout $end
+$var wire 1 4 SW0~combout $end
+$var wire 1 5 SW1~combout $end
+$var wire 1 6 state~16_combout $end
+$var wire 1 7 state~17_combout $end
+$var wire 1 8 SW5~combout $end
+$var wire 1 9 state.STEP1_STATE~regout $end
+$var wire 1 : SW3~combout $end
+$var wire 1 ; state~20_combout $end
+$var wire 1 < state~18_combout $end
+$var wire 1 = state~19_combout $end
+$var wire 1 > state.STEP2_STATE~regout $end
+$var wire 1 ? Selector1~0_combout $end
+$var wire 1 @ state~21_combout $end
+$var wire 1 A state.STEP3_STATE~regout $end
+$var wire 1 B Selector1~1_combout $end
+$var wire 1 C Selector1~2_combout $end
+$var wire 1 D state.ERROR_STATE~regout $end
+$var wire 1 E state.LOCKED_STATE~0_combout $end
+$var wire 1 F state.LOCKED_STATE~regout $end
+$var wire 1 G LEDG1~0_combout $end
+$var wire 1 H state.OPEN_STATE~0_combout $end
+$var wire 1 I state.OPEN_STATE~regout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+0#
+1$
+0%
+0&
+1'
+0(
+0)
+0*
+x+
+0,
+1-
+x.
+1/
+10
+11
+02
+03
+14
+15
+16
+17
+08
+09
+1:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+1B
+0C
+0D
+1E
+0F
+0G
+0H
+0I
+$end
+#10000
+0!
+0"
+0$
+1%
+04
+05
+0:
+12
+0+
+06
+0B
+07
+1C
+1F
+19
+1B
+1G
+0'
+1(
+#20000
+1#
+1"
+0%
+13
+15
+02
+1+
+1<
+0C
+1=
+#30000
+0#
+0"
+1%
+03
+05
+12
+0+
+0<
+1C
+0=
+1>
+09
+1?
+0C
+1C
+#40000
+1!
+1$
+1#
+1"
+0%
+14
+1:
+13
+15
+02
+1+
+#50000
+0!
+0$
+0#
+0"
+1%
+04
+0:
+03
+05
+12
+0+
+1D
+0>
+0E
+0G
+0?
+1*
+0C
+0(
+#60000
+1!
+1"
+0%
+14
+15
+02
+1+
+16
+#70000
+0!
+0"
+1%
+04
+05
+12
+0+
+06
+0F
+0D
+0B
+1E
+0*
+1'
+1C
+#80000
+1&
+0%
+18
+02
+1+
+#90000
+0&
+08
+0+
+#100000

@@ -1,0 +1,25 @@
+|failsafe
+SW0 => Equal0.IN2
+SW0 => Equal1.IN3
+SW0 => Equal2.IN2
+SW0 => Equal3.IN1
+SW1 => Equal0.IN1
+SW1 => Equal1.IN1
+SW1 => Equal2.IN3
+SW1 => Equal3.IN0
+SW2 => Equal0.IN3
+SW2 => Equal1.IN0
+SW2 => Equal2.IN1
+SW2 => Equal3.IN3
+SW3 => Equal0.IN0
+SW3 => Equal1.IN2
+SW3 => Equal2.IN0
+SW3 => Equal3.IN2
+SW4 => state~4.DATAIN
+SW5 => state~6.DATAIN
+LEDG0 <= LEDG0.DB_MAX_OUTPUT_PORT_TYPE
+LEDG1 <= LEDG1.DB_MAX_OUTPUT_PORT_TYPE
+LEDG2 <= LEDG2.DB_MAX_OUTPUT_PORT_TYPE
+LEDG3 <= LEDG3.DB_MAX_OUTPUT_PORT_TYPE
+
+

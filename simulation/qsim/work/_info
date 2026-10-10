@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\failsafe\simulation\qsim
+vfailsafe
+Z1 !s100 PU>F]m014JV^z`zC8B2781
+Z2 Io]b]B?Ri18Y^IKj:H0La61
+Z3 VmL9i;zEWe85g8HO50EW>81
+Z4 dC:\altera\13.0sp1\failsafe\simulation\qsim
+Z5 w1791642502
+Z6 8failsafe.vo
+Z7 Ffailsafe.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|failsafe.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1791642503.118000
+Z12 !s107 failsafe.vo|
+!s101 -O0
+vfailsafe_vlg_check_tst
+!i10b 1
+Z13 !s100 Shh3gf[gIhV7?KDi9HLUN3
+Z14 IXgh8ZV3<TT1UG3Nbj?eT02
+Z15 VVXVY;^h5?Y`6Qb8ZRZ`N30
+R4
+Z16 w1791642501
+Z17 8failsafe.vt
+Z18 Ffailsafe.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z19 !s108 1791642503.165000
+Z20 !s107 failsafe.vt|
+Z21 !s90 -work|work|failsafe.vt|
+!s101 -O0
+R10
+vfailsafe_vlg_sample_tst
+!i10b 1
+Z22 !s100 =SCPSmi[EdElQ=D<D>gV?0
+Z23 Ib0Mk4=h0B<9iIR69DV<on2
+Z24 VohVKkamj9RjEQA5QSMW?G3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vfailsafe_vlg_vec_tst
+!i10b 1
+!s100 V;gjQ:AD[Ak8:@mDZka^N3
+InFSM8zDg;j7IN6ia=X_B73
+Z25 VIYJj]J=ZK^BP;Ke?kQ`M>2
+R4
+R16
+R17
+R18
+Z26 L0 243
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

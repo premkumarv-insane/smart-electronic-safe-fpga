@@ -1,0 +1,9 @@
+
+State Machine - |failsafe|state
+Name state.ERROR_STATE state.OPEN_STATE state.STEP3_STATE state.STEP2_STATE state.STEP1_STATE state.LOCKED_STATE 
+state.LOCKED_STATE 0 0 0 0 0 0 
+state.STEP1_STATE 0 0 0 0 1 1 
+state.STEP2_STATE 0 0 0 1 0 1 
+state.STEP3_STATE 0 0 1 0 0 1 
+state.OPEN_STATE 0 1 0 0 0 1 
+state.ERROR_STATE 1 0 0 0 0 1 
